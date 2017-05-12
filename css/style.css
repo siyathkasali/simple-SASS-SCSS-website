@@ -2,5 +2,25 @@ body {
   font-family: sans-serif;
   color: #222222; }
 
-#header #main-menu {
-  height: 60px; }
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", serif; }
+
+p {
+  font-family: Verdana, Arial, sans-serif; }
+
+a {
+  color: #f37731; }
+
+#header {
+  height: 60px;
+  background-color: #170a48; }
+  #header #main-menu a {
+    color: white; }
+
+#main {
+  width: 960px;
+  margin: 0 auto; }
+
+#footer {
+  height: 90px;
+  background: #ccf962; }

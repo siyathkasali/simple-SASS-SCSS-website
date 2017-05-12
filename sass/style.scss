@@ -29,12 +29,18 @@ p{
 }
 
 a{
-
+    color: $link-color;
 }
 
 #header{
+    height: $header-height;
+    background-color: $theme-color;
     #main-menu{
-        height: $navbar-height;
+
+        a{
+            color: $menu-item-color;
+        }
+    
     }
     #logo {
 
@@ -42,6 +48,8 @@ a{
 }
 
 #main{
+    width:$content-width;
+    margin: 0 auto;
     #content{
 
     }
@@ -51,5 +59,7 @@ a{
 }
 
 #footer{
-
+height: $footer-height;
+background: $ternary-color;
+color:#000;
 }
