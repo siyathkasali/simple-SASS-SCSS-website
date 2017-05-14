@@ -25,7 +25,8 @@ a{
 }
 
 #header{
-    @include box;
+    @include box-shadow(1px 4px 3px red, 9px 12px 4px green);
+    @include box(100px,1px solid #333);
     height: $header-height;
     background-color: $theme-color;
     #main-menu{

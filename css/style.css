@@ -1,67 +1,47 @@
 a {
   text-decoration: none;
-  font-style: italic;
-}
+  font-style: italic; }
 
 body {
   font-family: sans-serif;
-  color: #222222;
-}
+  color: #222222; }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Palatino Linotype", serif;
-}
+h1, h2, h3, h4 {
+  font-family: "Palatino Linotype", serif; }
 
 h2 font {
   size: 45px;
-  weight: bold;
-}
+  weight: bold; }
 
 p {
-  font-family: Verdana, Arial, sans-serif;
-}
+  font-family: Verdana, Arial, sans-serif; }
 
 a {
-  color: #f37731;
-}
+  color: #f37731; }
 
 #header {
-  border-radius: 6px;
+  box-shadow: 1px 4px 3px red, 9px 12px 4px green;
+  border-radius: 100px;
   border: 1px solid #333;
   height: 60px;
-  background-color: #170a48;
-}
-
-#header #main-menu {
-  margin-left: 25px;
-}
-
-#header #main-menu ul {
-  margin-top: 20px;
-}
-
-#header #main-menu li {
-  display: inline;
-}
-
-#header #main-menu a {
-  color: white;
-}
+  background-color: #170a48; }
+  #header #main-menu {
+    margin-left: 25px; }
+    #header #main-menu ul {
+      margin-top: 20px; }
+    #header #main-menu li {
+      display: inline; }
+    #header #main-menu a {
+      color: white; }
 
 #main {
   width: 960px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .warning-butt {
   background: orange;
-  color: #fff;
-}
+  color: #fff; }
 
 footer {
   height: 90px;
-  background: #ccf962;
-}
+  background: #ccf962; }

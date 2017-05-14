@@ -10,13 +10,17 @@
     }
 }
 
-@mixin rounded{
-    border-radius: 6px;
+@mixin box-shadow($shadows...){
+    box-shadow: $shadows;
 }
 
-@mixin box{
-    @include rounded;
-    border: 1px solid #333;
+@mixin rounded($radius){
+    border-radius: $radius;
+}
+
+@mixin box($radius, $border){
+    @include rounded($radius);
+    border: $border;
 }
 
 @mixin fancy-links{
