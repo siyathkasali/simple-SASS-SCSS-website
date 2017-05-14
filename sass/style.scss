@@ -1,5 +1,7 @@
 @import "variabels";
+@import "mixins";
 
+@include fancy-links;
 
 body{
     font-family: sans-serif;
@@ -8,6 +10,10 @@ body{
 
 h1, h2, h3, h4{
     font-family: $headline-font;
+}
+
+h2{
+    @include large-text;
 }
 
 p{
@@ -19,10 +25,14 @@ a{
 }
 
 #header{
+    @include box;
     height: $header-height;
     background-color: $theme-color;
     #main-menu{
-
+        margin-left: 25px;
+        ul{
+            margin-top: 20px;
+        }
         li{
             display: inline;
         }
@@ -46,6 +56,10 @@ a{
     #sidebar{
 
     }
+}
+
+.warning-butt{
+    @include warning;
 }
 
 footer{
