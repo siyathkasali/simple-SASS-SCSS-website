@@ -22,15 +22,12 @@ a {
   color: #f37731; }
 
 #header {
-  box-shadow: 1px 4px 3px red, 9px 12px 4px green;
-  border-radius: 100px;
-  border: 1px solid #333;
   height: 60px;
   background-color: #170a48; }
   #header #main-menu {
     margin-left: 25px; }
     #header #main-menu ul {
-      margin-top: 20px; }
+      margin-top: 20px !important; }
     #header #main-menu li {
       display: inline; }
     #header #main-menu a {
@@ -39,6 +36,10 @@ a {
 #main {
   width: 960px;
   margin: 0 auto; }
+  @media only screen and (max-width: 960px) {
+    #main {
+      width: auto;
+      max-width: 960px; } }
 
 .warning-butt {
   background: orange;
