@@ -8,7 +8,7 @@
 body{
     font-family: sans-serif;
     color: $text-color;
-    @media only screen and (max-width:960px){
+    @include large-screen{
         font-size: 125%;
     }
 }
@@ -55,7 +55,7 @@ a{
 
 #main{
     width:$content-width;
-    @media only screen and (max-width:960px){
+    @include large-screen{
         width: auto;
         max-width: $content-width;
     }
