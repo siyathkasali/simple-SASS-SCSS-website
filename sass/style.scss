@@ -8,6 +8,9 @@
 body{
     font-family: sans-serif;
     color: $text-color;
+    @media only screen and (max-width:960px){
+        font-size: 125%;
+    }
 }
 
 h1, h2, h3, h4{
