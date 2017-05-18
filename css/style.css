@@ -29,8 +29,8 @@ a {
   background-color: #170a48; }
   #header #main-menu {
     margin-left: 25px; }
-    #header #main-menu ul {
-      margin-top: 20px !important; }
+    #header #main-menu .menu-list {
+      padding-top: 20px !important; }
     #header #main-menu li {
       display: inline; }
     #header #main-menu a {
