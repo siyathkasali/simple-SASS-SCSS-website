@@ -1,3 +1,4 @@
+@import "partials/functions";
 @import "partials/variabels";
 @import "partials/mixins";
 
@@ -8,6 +9,7 @@
 body{
     font-family: sans-serif;
     color: $text-color;
+    font-size: sum(20,7);
     @include large-screen{
         font-size: 125%;
     }
